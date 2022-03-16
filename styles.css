@@ -1,0 +1,215 @@
+/* HTML ELEMENTS */
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat-bold';
+    color: white;
+}
+
+#title {
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    color: white;
+}
+
+
+.row {
+    padding-top: 100px;
+}
+
+.row h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/* COLOURED CLASSES */
+
+.coloured-class {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-class {
+    background-color: white;
+}
+
+
+/* navbar-styles */
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.nav-item {
+    padding-left: 10px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+/* buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 20%;
+    position: absolute;
+    right: 230px;
+
+}
+
+    /* Features section*/
+
+#features {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat-light';
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#features h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#features p {
+    color: #8f8f8f;
+    font-size: 15px;
+}
+
+#features div {
+    padding: 70px 0;
+
+}
+
+.icon {
+    margin-bottom: 20px;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+    height: 400px;
+    padding: 80px 100px;
+}
+
+.testimonial-image {
+    padding: 80px 100px;
+    border-radius: 100%;
+    width: 150px;
+}
+
+.testimonial-button {
+    padding-bottom: 70px;
+}
+
+.dog-img {
+    border-radius: 100%;
+    width: 150px;
+    padding: 35px 0;
+}
+
+.image-2 {
+    padding: 35px 0;
+}
+
+#testimonials h2 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Montserrat-light';
+}
+
+#press {
+    background-color: #ef8172;
+}
+
+.press-images {
+    width: 150px;
+    margin: 10px 50px 120px;
+    padding-top: 235px;
+}
+
+/* Pricing */
+
+#pricing {
+    background-color: beige;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+
+#pricing h2, h5, p {
+    color: black;
+    font-family: 'Montserrat-light';
+    font-size: 1rem;
+}
+
+.chihuahua-img {
+    height: 253px;
+}
+
+.dogs-img {
+    padding-bottom: 30px;
+}
+
+.price-sec {
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+/* Call to action */
+#cta {
+    padding-top: 50px;
+}
+
+.social-media {
+    padding: 15px 5px;
+    color: black;
+}
+
+.social-media:hover {
+    color: black;
+}
+
+#footer {
+    padding-top: 20px;
+    background-color: #ff4c68;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:1024px) {
+
+    .container-fluid {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        width: 60%;
+        padding-top: 60px;
+    }
+}
